@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inter:wght@500&family=Montserrat:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    background-image: url(./imgens/the\ witcher\ hell@2x.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    width: 23%;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 80px;
+}
+
+h2 {
+    color: #ffffffa9;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+nav {
+    width: 40vw;
+
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: #ffffffa9;
+    transition: all 0.5s;
+}
+
+a:hover {
+    color: white;
+}
+
+main {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+main section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 95vh;
+    width:40vw;
+    background-image: url(./imgens/the\ witcher\ kavil2@2x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+main section img{
+    width: 25vw;
+}
+button{
+    margin-top: 30px;
+    width: 20vw;
+    height: 7vh;
+    background-color: rgb(196, 5, 5);
+    border: solid 1px rgb(0, 0, 49);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+    transition: all 0.9s;
+
+}
+button:hover{
+    background-color: rgb(27, 1, 1);
+    border-color: black;
+    color: rgb(196, 5, 5);
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: #ffffffa9;
+    top: 672px;
+}
